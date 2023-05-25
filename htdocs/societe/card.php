@@ -1140,6 +1140,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
   if ($action == 'createnew') {
 
     $linkback = "";
+    
     print load_fiche_titre($langs->trans("NewThirdParty"), $linkback, 'building');
     dol_htmloutput_mesg(is_numeric($error) ? '' : $error, $errors, 'error');
     print '<form enctype="multipart/form-data" action="' . $_SERVER["PHP_SELF"] . '" method="post" name="formsoc" autocomplete="off">';
