@@ -1,0 +1,33 @@
+# Dolibarr language file - Source file is en_US - deliveries
+Delivery=Dorëzimi
+DeliveryRef=Ref. e dorëzimit
+DeliveryCard=Karta e pranimit
+DeliveryOrder=Faturën e dorëzimit
+DeliveryDate=Data e dorëzimit
+CreateDeliveryOrder=Gjeneroni faturën e dorëzimit
+DeliveryStateSaved=Gjendja e dorëzimit është ruajtur
+SetDeliveryDate=Caktoni datën e dërgesës
+ValidateDeliveryReceipt=Vërtetoni faturën e dorëzimit
+ValidateDeliveryReceiptConfirm=Jeni të sigurt se dëshironi ta vërtetoni këtë faturë dërgese?
+DeleteDeliveryReceipt=Fshini faturën e dorëzimit
+DeleteDeliveryReceiptConfirm=Jeni të sigurt se dëshironi ta fshini faturën e dorëzimit <b>%s</b>?
+DeliveryMethod=Metodat e dërgesës
+TrackingNumber=Numri i prcjelljes
+DeliveryNotValidated=Dorëzimi nuk është vërtetuar
+StatusDeliveryCanceled=Anuluar
+StatusDeliveryDraft=Draft
+StatusDeliveryValidated=Pranuar
+# merou PDF model
+NameAndSignature=Emri dhe nënshkrimi:
+ToAndDate=Për___________________________________ në ____/_____/__________
+GoodStatusDeclaration=I keni marrë mallrat e mësipërme në gjendje të mirë,
+Deliverer=Dorëzuesi:
+Sender=Dërguesi
+Recipient=Pranuesi
+ErrorStockIsNotEnough=Nuk ka rezerva të mjaftueshme
+Shippable=E dërgushme
+NonShippable=E padërgueshme
+ShowShippableStatus=Shfaqni statusin e dërgeshmërisë
+ShowReceiving=Shfaqni faturën e dorëzimit
+NonExistentOrder=Urdhër joekzistues
+StockQuantitiesAlreadyAllocatedOnPreviousLines = Sasitë e rezervave tashmë të alokuara në linjat e mëparshme

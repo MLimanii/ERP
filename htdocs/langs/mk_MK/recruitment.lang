@@ -1,0 +1,73 @@
+# Copyright (C) 2020 Laurent Destailleur
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleRecruitmentName'
+ModuleRecruitmentName = Регрутирање(вработување)
+# Module description 'ModuleRecruitmentDesc'
+ModuleRecruitmentDesc = Управувајте и следете ги кампањите за регрутирање за нови работни позиции
+#
+# Admin page
+#
+RecruitmentSetup = Поставување на регрутација
+Settings = Подесувања
+RecruitmentSetupPage = Внесете го тука поставувањето на главните опции за модулот за регрутирање(вработување)
+RecruitmentArea=Област за регрутирање
+PublicInterfaceRecruitmentDesc=Јавните страници со работни места се јавни URLs да се прикаже и да одговори на отворените работни места. Постои една различна врска за секое отворено работно место, кое се наоѓа на секоја работна евиденција.
+EnablePublicRecruitmentPages=Овозможи јавни страници со отворени работни места
+#
+# About page
+#
+About = За
+RecruitmentAbout = За регрутирање(вработување)
+RecruitmentAboutPage = Регрутирање за страница
+NbOfEmployeesExpected=Очекуван број на вработени
+JobLabel=Ознака на работната позиција
+WorkPlace=Работно место
+DateExpected=Предвиден датум
+FutureManager=Иден менаџер
+ResponsibleOfRecruitement=Одговорен за вработување
+IfJobIsLocatedAtAPartner=Ако(доколку) работата е лоцирана на партнерско место
+PositionToBeFilled=Работна позиција(работно место)
+PositionsToBeFilled=Работни позиции(работни места)
+ListOfPositionsToBeFilled=Листа на работни позиции(работни места)
+NewPositionToBeFilled=Нови работни позиции(нови работни места)
+JobOfferToBeFilled=Работно место кое треба да се пополни
+ThisIsInformationOnJobPosition=Информации за работната позиција(работно место) што треба да се пополни
+ContactForRecruitment=Контакт за регрутирање(вработување)
+EmailRecruiter=Е-пошта(електронска пошта) за вработување
+ToUseAGenericEmail=За да користите генеричка електронска пошта. Доколку не е дефинирано, ќе се користи генеричка електронска пошта на одговорниот за вработување
+NewCandidature=Нова апликација
+ListOfCandidatures=Листа на апликации
+RequestedRemuneration=Баран надоместок
+ProposedRemuneration=Предложен надоместок
+ContractProposed=Предложен договор
+ContractSigned=Потпишан договор
+ContractRefused=Договорот е одбиен
+RecruitmentCandidature=Апликација
+JobPositions=Работни позиции
+RecruitmentCandidatures=Апликации
+InterviewToDo=Интервју што треба да се направи
+AnswerCandidature=Одговор на апликацијата
+YourCandidature=Ваша апликација
+YourCandidatureAnswerMessage=Ви благодариме за вашата апликација.<br>...
+JobClosedTextCandidateFound=Работната позиција е затворена (работното место е затворено).Работното место е пополнето(работната позиција е потполнета).
+JobClosedTextCanceled=Работната позиција е затворена(работното место е затворено)
+ExtrafieldsJobPosition=Дополнителни атрибути (работни позиции)
+ExtrafieldsApplication=Дополнителни атрибути (апликации за работа)
+MakeOffer=Направи понуда(Дајте понуда)

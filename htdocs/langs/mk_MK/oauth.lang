@@ -1,0 +1,36 @@
+# Dolibarr language file - Source file is en_US - oauth
+ConfigOAuth=Конфигурација на OAuth
+OAuthServices=Услуги на OAuth
+ManualTokenGeneration=Рачно генерирање на токени
+TokenManager=Менаџер со токени
+IsTokenGenerated=Дали е генериран токен?
+NoAccessToken=Нема токен за пристап зачуван во локалната база на податоци
+HasAccessToken=Беше генериран токен и зачуван во локалната база на податоци
+NewTokenStored=Токен е примен и зачуван
+ToCheckDeleteTokenOnProvider=Кликнете овде за да check/delete овластувањето зачувано од %s обезбедувач на OAuth
+TokenDeleted=Токенот е избришан
+RequestAccess=Кликнете овде за да request/renew пристап и прием нов токен
+DeleteAccess=Кликнете овде за да избришете токен
+UseTheFollowingUrlAsRedirectURI=Користете ја следнава URL-адреса како URI за пренасочување кога ги креирате вашите акредитиви со вашиот OAuth провајдер:
+ListOfSupportedOauthProviders=Додадете ги вашите обезбедувачи на токени OAuth2. Потоа, одете на административната страница на вашиот давател на OAuth за да креирате/добиете ID и тајна на OAuth и зачувајте ги овде. Откако ќе заврши, вклучете ја другата картичка за да го генерирате вашиот токен.
+OAuthSetupForLogin=Страница за управување (generate/delete) OAuth токени
+SeePreviousTab=Видете го претходниот таб
+OAuthProvider=Обезбедувач на OAuth
+OAuthIDSecret=OAuth ID и Secret
+TOKEN_REFRESH=Токен за освежување на страница
+TOKEN_EXPIRED=Токенот е истечен
+TOKEN_EXPIRE_AT=Токенот истекува во
+TOKEN_DELETE=Избришете го зачуваниот токен
+OAUTH_GOOGLE_NAME=Услуга на Google OAuth
+OAUTH_GOOGLE_ID=OAuth Google ID
+OAUTH_GOOGLE_SECRET=OAuth Google Secret
+OAUTH_GITHUB_NAME=Услуга OAuth GitHub
+OAUTH_GITHUB_ID=OAuth GitHub Id
+OAUTH_GITHUB_SECRET=OAuth GitHub Secret
+OAUTH_URL_FOR_CREDENTIAL=Оди до <a class="notasortlink" href="%s" target="_blank" rel="noopener noreferrer external">оваа страница<span class="fas fa-external-link-alt paddingleft"></span></a> да креирате или да го добиете вашиот OAuth ID и Secret
+OAUTH_STRIPE_TEST_NAME=OAuth Stripe Тест
+OAUTH_STRIPE_LIVE_NAME=OAuth Stripe во живо
+OAUTH_ID=OAuth ID
+OAUTH_SECRET=OAuth secret
+OAuthProviderAdded=Додаден е провајдер OAuth
+AOAuthEntryForThisProviderAndLabelAlreadyHasAKey=Веќе постои запис на OAuth за овој давател и етикета(ознака)

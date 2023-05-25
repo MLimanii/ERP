@@ -1,0 +1,65 @@
+# Copyright (C) 2018      Alexandre Spangaro   <aspangaro@open-dsi.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+Assets = Mjetetet
+NewAsset = Mjetetet e reja
+AccountancyCodeAsset = Shifra e kontabilitetit (vlera)
+AccountancyCodeDepreciationAsset = Shifra e kontabilitetit (llogaritë e amortizimit të mjeteve)
+AccountancyCodeDepreciationExpense = Shifra e kontabilitetit (llogaritë e amortizimit të shpenzimeve)
+NewAssetType=Lloji i mjetetit të re
+AssetsTypeSetup=Konfigurimi i llojit të mjetetit
+AssetTypeModified=Lloji i mjetetit i modifikuar
+AssetType=Lloji i mjetetit
+AssetsLines=Mjetetet
+DeleteType=Fshini
+DeleteAnAssetType=Fshini një lloj të mjetetit
+ConfirmDeleteAssetType=Jeni të sigurt që dëshironi ta fshini këtë lloj mjeteti?
+ShowTypeCard=Shfaqni llojin '%s'
+
+# Module label 'ModuleAssetsName'
+ModuleAssetsName = Mjetetet
+# Module description 'ModuleAssetsDesc'
+ModuleAssetsDesc = Përshkrimi i mjeteteve
+
+#
+# Admin page
+#
+AssetsSetup = Konfigurimi i mjeteteve 
+Settings = Cilësimet
+AssetsSetupPage = Faqja për konfigurimin e mjeteve
+ExtraFieldsAssetsType = Atributet komplementare (Lloji i mjetit)
+AssetsType=Lloji i mjetit
+AssetsTypeId=ID-ja e llojit të mjetit
+AssetsTypeLabel=Etiketa e llojit të mjetit
+AssetsTypes=Llojet e mjeteve
+
+#
+# Menu
+#
+MenuAssets = Mjetet
+MenuNewAsset = Mjetet e reja
+MenuTypeAssets = Llojet e mjeteve
+MenuListAssets = Lista
+MenuNewTypeAssets = E re
+MenuListTypeAssets = Lista
+
+#
+# Module
+#
+NewAssetType=Lloji i ri i mjetit
+NewAsset=Mjeti i ri

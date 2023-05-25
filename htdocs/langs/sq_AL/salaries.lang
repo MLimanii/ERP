@@ -1,0 +1,26 @@
+# Dolibarr language file - Source file is en_US - salaries
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Llogaria e kontabilitetit e përdorur për palët e treta të përdoruesve
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Llogaria e dedikuar e kontabilitetit e përcaktuar në kartën e përdoruesit do të përdoret vetëm për kontabilitetin nënlibrin kryesor. Kjo do të përdoret për librin kryesor dhe si vlerë standarde e kontabilitetit nënlibrin kryesor nëse llogaria e dedikuar e kontabilitetit të përdoruesit për përdoruesin nuk është përcaktuar.
+SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Llogaria e kontabilitetit si standard për pagesat e pagave
+CREATE_NEW_SALARY_WITHOUT_AUTO_PAYMENT=Si standard, lini zbrazur opsionin "Krijoni automatikisht një pagesë totale" kur krijoni një pagë
+Salary=Rroga
+Salaries=Rrogat
+NewSalary=Rroga e re 
+AddSalary=Shtoni rrogën
+NewSalaryPayment=Kartela e re e rrogës
+AddSalaryPayment=Shtoni një pagesë të rrogës
+SalaryPayment=Pagesa e rrogës
+SalariesPayments=Pagesat e rrogave
+SalariesPaymentsOf=Pagesat e rrogave të %s
+ShowSalaryPayment=Shfaqni pagesën e rrogës
+THM=Norma mesatare për orë
+TJM=Norma mesatare ditore
+CurrentSalary=Rroga aktuale
+THMDescription=Kjo vlerë mund të përdoret për të llogaritur koston e kohës së konsumuar në një projekt të futur nga përdoruesit nëse përdoret moduli i projektit
+TJMDescription=Kjo vlerë aktualisht është vetëm për informacion dhe nuk përdoret për asnjë llogaritje
+LastSalaries=Rrogat e fundit %s
+AllSalaries=Të gjitha rogat
+SalariesStatistics=Statistikat e rrogës
+SalariesAndPayments=Rrogat dhe pagesat
+ConfirmDeleteSalaryPayment=A dëshironi ta fshini këtë pagesë të rrogës?
+FillFieldFirst=Plotësoni fillimisht fushën e punonjësve

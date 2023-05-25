@@ -1,0 +1,324 @@
+# en_US lang file for module ticket
+# Copyright (C) 2013  Jean-François FERRY <hello@librethic.io>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+Module56000Name=Biletat
+Module56000Desc=Sistemi i biletave për menaxhimin e lëshimit ose kërkesës
+
+Permission56001=Shihni biletat
+Permission56002=Ndryshoni biletat
+Permission56003=Fshini biletat
+Permission56004=Menaxhoni biletat
+Permission56005=Shikoni biletat e të gjitha palëve të treta (jo efektive për përdoruesit e jashtëm, kufizohuni gjithmonë tek pala e tretë nga e cila ata varen)
+
+TicketDictType=Bileta - Llojet
+TicketDictCategory=Bileta - Grupe
+TicketDictSeverity=Bileta - Mprehtësia
+TicketDictResolution=Bileta - Rezoluta
+
+TicketTypeShortCOM=Pyetje komerciale
+TicketTypeShortHELP=Kërkesë për ndihmë funksionale
+TicketTypeShortISSUE=Problemi ose defekti
+TicketTypeShortPROBLEM=Problemi
+TicketTypeShortREQUEST=Kërkesë për ndryshim ose përmirësim
+TicketTypeShortPROJET=Projekti
+TicketTypeShortOTHER=Tjetër
+
+TicketSeverityShortLOW=E ulët
+TicketSeverityShortNORMAL=Normale
+TicketSeverityShortHIGH=E lartë
+TicketSeverityShortBLOCKING=Kritike, Bllokim
+
+TicketCategoryShortOTHER=Tjetër
+
+ErrorBadEmailAddress=Fusha '%s' është e pasaktë
+MenuTicketMyAssign=Biletat e mia
+MenuTicketMyAssignNonClosed=Biletat e mia të hapura
+MenuListNonClosed=Biletat e hapura
+
+TypeContact_ticket_internal_CONTRIBUTOR=Kontribuesi
+TypeContact_ticket_internal_SUPPORTTEC=Përdoruesi i caktuar
+TypeContact_ticket_external_SUPPORTCLI=Kontakti me konsumatoritn / gjurmimi i incidentit
+TypeContact_ticket_external_CONTRIBUTOR=Kontribuesi i jashtëm
+
+OriginEmail=Posta elektronike e gazetarit
+Notify_TICKET_SENTBYMAIL=Dërgo mesazh biletë me postë elektronike
+
+# Status
+Read=I/e lexuar
+Assigned=I/e caktuar
+InProgress=Në progres
+NeedMoreInformation=Në pritje të komenteve të gazetarëve
+NeedMoreInformationShort=Në pritje të komenteve
+Answered=I/e prgjigjur
+Waiting=Duke pritur
+SolvedClosed=I/e zgjidhur
+Deleted=I/e fshirë
+
+# Dict
+Type=Lloji
+Severity=Mprehtësia
+TicketGroupIsPublic=Grupi është publik
+TicketGroupIsPublicDesc=Nëse një grup biletash është publik, ai do të jetë i dukshëm në formën kur krijoni një biletë nga ndërlidhja publike
+
+# Email templates
+MailToSendTicketMessage=Për të dërguar postë elektronike nga mesazhi i biletës
+
+#
+# Admin page
+#
+TicketSetup=Konfigurimi i modulit të biletave
+TicketSettings=Cilësimet
+TicketSetupPage=
+TicketPublicAccess=Një ndërlidhje publike që nuk kërkon identifikim është e disponueshme në url-në e mëposhtme
+TicketSetupDictionaries=Lloji i biletës, mprehtësia dhe kodet analitike janë të konfigurueshme nga fjalorët
+TicketParamModule=Konfigurimi i variablit të modulit
+TicketParamMail=Konfigurimi i postës elektronike
+TicketEmailNotificationFrom=Postë elektronike njoftimi nga
+TicketEmailNotificationFromHelp=Përdoret në përgjigjen e mesazhit të biletës me shembull
+TicketEmailNotificationTo=Njoftimet me postë elektronike në
+TicketEmailNotificationToHelp=Dërgoni njoftime me postë elektronike në këtë adresë.
+TicketNewEmailBodyLabel=Mesazhi me tekst u dërgua pas krijimit të një bilete
+TicketNewEmailBodyHelp=Teksti i specifikuar këtu do të futet në postën elektronike që konfirmon krijimin e një bilete të re nga ndërlidhja publike. Informacioni mbi konsultimin e biletës shtohet automatikisht.
+TicketParamPublicInterface=Konfigurimi i ndërlidhjes publike
+TicketsEmailMustExist=Kërkoni një adresë ekzistuese elektronike për të krijuar një biletë
+TicketsEmailMustExistHelp=Në ndërlidhjen publike, adresa elektronike duhet të plotësohet tashmë në bazën e të dhënave për të krijuar një biletë të re.
+PublicInterface=Ndërlidhja publike
+TicketUrlPublicInterfaceLabelAdmin=URL alternative për ndërlidhje publike
+TicketUrlPublicInterfaceHelpAdmin=Është e mundur të përcaktohet një pseudonim në serverin e uebit dhe kështu të vihet në dispozicion ndërlidhja publike me një URL tjetër (serveri duhet të veprojë si një përfaqësues në këtë URL të re)
+TicketPublicInterfaceTextHomeLabelAdmin=Teksti i mirëseardhjes i ndërlidhjes publike
+TicketPublicInterfaceTextHome=Mund të krijoni një biletë mbështetëse ose të shikoni ekzistuesen nga bileta e saj e ndjekjes së identifikuesit.
+TicketPublicInterfaceTextHomeHelpAdmin=Teksti i përcaktuar këtu do të shfaqet në faqen kryesore të ndërlidhjes publike.
+TicketPublicInterfaceTopicLabelAdmin=Titulli i ndërlidhjes
+TicketPublicInterfaceTopicHelp=Ky tekst do të shfaqet si titulli i ndërlidhjes publike.
+TicketPublicInterfaceTextHelpMessageLabelAdmin=Teksti i ndihmës në hyrjen e mesazhit
+TicketPublicInterfaceTextHelpMessageHelpAdmin=Ky tekst do të shfaqet mbi zonën e hyrjes së mesazhit të përdoruesit.
+ExtraFieldsTicket=Atributet shtesë
+TicketCkEditorEmailNotActivated=Redaktori HTML nuk është i aktivizuar. Ju lutemi vendosni përmbajtjen FCKEDITOR_ENABLE_MAIL në 1 për ta marrë atë.
+TicketsDisableEmail=Mos dërgoni postë elektronike për krijimin e biletave ose regjistrimin e mesazheve
+TicketsDisableEmailHelp=Si parazgjedhje, postat elektronike dërgohen kur krijohen bileta ose mesazhe të reja. Aktivizoni këtë opsion për të çaktivizuar *të gjitha* njoftimet me postë elektronike
+TicketsLogEnableEmail=Aktivizoni regjistrin me postë elektronike
+TicketsLogEnableEmailHelp=Në çdo ndryshim, një postë elektronike do t'i dërgohet **çdo kontakti** të lidhur me biletën.
+TicketParams=Parametart
+TicketsShowModuleLogo=Shfaqni logon e modulit në ndërlidhjen publike
+TicketsShowModuleLogoHelp=Aktivizoni këtë opsion për të fshehur modulin e logos në faqet e ndërlidhjes publike
+TicketsShowCompanyLogo=Shfaqni logon e kompanisë në ndërlidhjen publike
+TicketsShowCompanyLogoHelp=Aktivizoni këtë opsion për të fshehur logon e kompanisë kryesore në faqet e ndërlidhjes publike
+TicketsEmailAlsoSendToMainAddress=Gjithashtu dërgoni një njoftim në adresën kryesore elektronike
+TicketsEmailAlsoSendToMainAddressHelp=Aktivizoni këtë opsion për të dërguar gjithashtu një postë elektronike në adresën e përcaktuar në konfigurimin "%s" (shihni skedën "%s")
+TicketsLimitViewAssignedOnly=Kufizoni shfaqjen në biletat e caktuara për përdoruesit aktualë (jo efektive për përdoruesit e jashtëm, kufizohuni gjithmonë tek pala e tretë nga e cila ata varen)
+TicketsLimitViewAssignedOnlyHelp=Vetëm biletat e caktuara për përdoruesin aktual do të jenë të dukshme. Nuk zbatohet për një përdorues me të drejta të menaxhimit të biletave.
+TicketsActivatePublicInterface=Aktivizoni ndërlidhjen publike
+TicketsActivatePublicInterfaceHelp=Ndërlidhja publike lejon çdo vizitor të krijojë bileta.
+TicketsAutoAssignTicket=Caktoni automatikisht përdoruesin që krijoi biletën
+TicketsAutoAssignTicketHelp=Kur krijoni një biletë, përdoruesi mund të caktohet automatikisht në biletë.
+TicketNumberingModules=Moduli i numërimit të biletave
+TicketsModelModule=Modelet e dokumenteve për biletat
+TicketNotifyTiersAtCreation=Njoftoni palën e tretë në krijimin
+TicketsDisableCustomerEmail=Gjithmonë çaktivizoni postat elektronike kur krijohet një biletë nga ndërlidhja publike
+TicketsPublicNotificationNewMessage=Dërgoni postet elektronike kur një mesazh/koment i ri shtohet në një biletë
+TicketsPublicNotificationNewMessageHelp=Dërgoni postat elektronike kur shtohet një mesazh i ri nga ndërlidhja publike (për përdoruesin e caktuar ose postën elektronike të njoftimeve në (përditësim) dhe/ose postën elektronike të njoftimeve te)
+TicketPublicNotificationNewMessageDefaultEmail=Njoftimet me postë elektronike në (përditësim)
+TicketPublicNotificationNewMessageDefaultEmailHelp=Dërgoni një postë elektronike në këtë adresë për çdo njoftim të mesazhit të ri nëse bileta nuk ka një përdorues të caktuar për të ose nëse përdoruesi nuk ka ndonjë postë elektronike të njohur.
+#
+# Index & list page
+#
+TicketsIndex=Zona e biletave
+TicketList=Lista e biletave
+TicketAssignedToMeInfos=Kjo faqe shfaq listën e biletave të krijuar nga ose të caktuar për përdoruesin aktual
+NoTicketsFound=Nuk është gjetur asnjë biletë
+NoUnreadTicketsFound=Nuk është gjetur asnjë biletë e palexuar
+TicketViewAllTickets=Shikoni të gjitha biletat
+TicketViewNonClosedOnly=Shikoni vetëm biletat e hapura
+TicketStatByStatus=Biletat sipas statusit
+OrderByDateAsc=Renditni sipas datës në rritje
+OrderByDateDesc=Renditni sipas datës zbritëse
+ShowAsConversation=Shfaqni si listë bisedash
+MessageListViewType=Shfaqni si listë tabele
+
+#
+# Ticket card
+#
+Ticket=Bileta
+TicketCard=Karta e biletës
+CreateTicket=Krijoni biletë
+EditTicket=Redaktoni biletën
+TicketsManagement=Menaxhimi i biletave
+CreatedBy=Krijuar nga
+NewTicket=Biletë e re
+SubjectAnswerToTicket=Përgjigja e biletës
+TicketTypeRequest=Lloji i kërkesës
+TicketCategory=Kategorizimi i biletave
+SeeTicket=Shihni biletën
+TicketMarkedAsRead=Bileta është shënuar si e lexuar
+TicketReadOn=Lexoni
+TicketCloseOn=Data e mbylljes
+MarkAsRead=Shënoni biletën si të lexuar
+TicketHistory=Historia e biletave
+AssignUser=Caktoni për përdoruesin
+TicketAssigned=Bileta tani është caktuar
+TicketChangeType=Ndryshoni llojin
+TicketChangeCategory=Ndryshoni kodin analitik
+TicketChangeSeverity=Ndryshoni mprehtësinë
+TicketAddMessage=Shtoni një mesazh
+AddMessage=Shtoni një mesazh
+MessageSuccessfullyAdded=Bileta është shtuar
+TicketMessageSuccessfullyAdded=Mesazhi është shtuar me sukses
+TicketMessagesList=Lista e mesazheve
+NoMsgForThisTicket=Nuk ka mesazh për këtë biletë
+TicketProperties=Klasifikimi
+LatestNewTickets=Biletat e fundit %s më të reja (të palexuara)
+TicketSeverity=Mprehtësia
+ShowTicket=Shihni biletën
+RelatedTickets=Bileta të ngjashme
+TicketAddIntervention=Krijoni ndërhyrje
+CloseTicket=Mbyllni|Zgjidhni biletën
+AbandonTicket=Braktisni biletën
+CloseATicket=Mbyllni|Zgjidhni një biletë
+ConfirmCloseAticket=Konfirmoni mbylljen e biletës
+ConfirmAbandonTicket=Doni ta konfirmoni mbylljen e biletës në statusin 'E braktisur'
+ConfirmDeleteTicket=Ju lutemi konfirmoni fshirjen e biletës
+TicketDeletedSuccess=Bileta është fshirë me sukses
+TicketMarkedAsClosed=Bileta është shënuar si e mbyllur
+TicketDurationAuto=Kohëzgjatja e llogaritur
+TicketDurationAutoInfos=Kohëzgjatja e llogaritur automatikisht nga ndërhyrja që lidhet
+TicketUpdated=Bileta është përditësuar
+SendMessageByEmail=Dërgo mesazh me postë elektronike
+TicketNewMessage=Mesazh i ri
+ErrorMailRecipientIsEmptyForSendTicketMessage=Pranuesi është i zbrazur.
+TicketGoIntoContactTab=Ju lutemi, shkoni te skeda "Kontaktet" për t'i zgjedhur ato
+TicketMessageMailIntro=Prezantimi
+TicketMessageMailIntroHelp=Ky tekst shtohet vetëm në fillim të postës elektronike dhe nuk do të ruhet.
+TicketMessageMailIntroLabelAdmin=Hyrje në mesazhin kur dërgoni postë elektronike
+TicketMessageMailIntroText=Përshëndetje,<br>Një përgjigje e re u dërgua në një biletë që ju kontaktoni. Këtu është mesazhi:<br>
+TicketMessageMailIntroHelpAdmin=Ky tekst do të futet përpara tekstit të përgjigjes për një biletë.
+TicketMessageMailSignature=Nënshkrimi
+TicketMessageMailSignatureHelp=Ky tekst shtohet vetëm në fund të postës elektronike dhe nuk do të ruhet.
+TicketMessageMailSignatureText=<p>Me respekt,</p><p>--</p>
+TicketMessageMailSignatureLabelAdmin=Nënshkrimi i postës elektronike të përgjigjes
+TicketMessageMailSignatureHelpAdmin=Ky tekst do të futet pas mesazhit të përgjigjes.
+TicketMessageHelp=Vetëm ky tekst do të ruhet në listën e mesazheve në kartën e biletës.
+TicketMessageSubstitutionReplacedByGenericValues=Variablat e zëvendësimeve zëvendësohen me vlera gjenerike.
+TimeElapsedSince=Koha ka kaluar që nga
+TicketTimeToRead=Koha e kaluar para leximit
+TicketTimeElapsedBeforeSince=Koha e kaluar para / që nga 
+TicketContacts=Bileta e kontakteve
+TicketDocumentsLinked=Dokumentet e lidhura me biletën
+ConfirmReOpenTicket=Konfirmoni rihapjen e kësaj bilete?
+TicketMessageMailIntroAutoNewPublicMessage=Një mesazh i ri u postua në biletë me temën %s:
+TicketAssignedToYou=Bileta e caktuar
+TicketAssignedEmailBody=Juve ju është caktuar bileta #%s nga %s
+MarkMessageAsPrivate=Shënoni mesazhin si privat
+TicketMessagePrivateHelp=Ky mesazh nuk do t'u shfaqet përdoruesve të jashtëm
+TicketEmailOriginIssuer=Lëshuesi në origjinë të biletave
+InitialMessage=Mesazhi fillestar
+LinkToAContract=Lidhja me një kontratë
+TicketPleaseSelectAContract=Zgjidhni një kontratë
+UnableToCreateInterIfNoSocid=Nuk mund të krijohet një ndërhyrje kur nuk është përcaktuar asnjë palë e tretë
+TicketMailExchanges=Shkëmbimet e postës elektronike
+TicketInitialMessageModified=Mesazhi fillestar është modifikuar
+TicketMessageSuccesfullyUpdated=Mesazhi është përditësuar me sukses
+TicketChangeStatus=Ndryshoni statusin
+TicketConfirmChangeStatus=Konfirmoni ndryshimin e statusit: %s ?
+TicketLogStatusChanged=Statusi është ndryshuar: %s në %s
+TicketNotNotifyTiersAtCreate=Mos e njoftoni kompaninë në krijimin
+Unread=Të palexuara
+TicketNotCreatedFromPublicInterface=I padisponueshem. Bileta nuk është krijuar nga ndërlidhja publike.
+ErrorTicketRefRequired=Kërkohet emri i referencës së biletës
+
+#
+# Logs
+#
+TicketLogMesgReadBy=Bileta %s e lexuar nga %s
+NoLogForThisTicket=Nuk ka ende regjistër për këtë biletë
+TicketLogAssignedTo=Bileta %s i është caktuar %s
+TicketLogPropertyChanged=Bileta %s e modifikuar: klasifikimi nga %s në %s
+TicketLogClosedBy=Bileta %s është mbyllur nga %s
+TicketLogReopen=Bileta %s rihapet
+
+#
+# Public pages
+#
+TicketSystem=Sistemi i biletave
+ShowListTicketWithTrackId=Shfaqni listën e biletave nga ID-ja e përcjelljes
+ShowTicketWithTrackId=Shfaqni biletën nga ID-ja e përcjelljes
+TicketPublicDesc=Mund të krijoni një biletë mbështetëse ose kontrolloni nga një ID ekzistuese.
+YourTicketSuccessfullySaved=Bileta është ruajtur me sukses!
+MesgInfosPublicTicketCreatedWithTrackId=Një biletë e re është krijuar me ID %s dhe Ref %s.
+PleaseRememberThisId=Ju lutemi mbani numrin e përcjelljes që mund t'ju kërkojmë më vonë.
+TicketNewEmailSubject=Konfirmimi i krijimit të biletës - Ref %s (ID-ja e biletës publike %s)
+TicketNewEmailSubjectCustomer=Biletë e re mbështetëse
+TicketNewEmailBody=Kjo është një postë e re alektronike automatike për të konfirmuar se keni regjistruar një biletë të re.
+TicketNewEmailBodyCustomer=Kjo është një postë elektronike automatike për të konfirmuar se një biletë e re sapo është krijuar në llogarinë tuaj.
+TicketNewEmailBodyInfosTicket=Informacion për monitorimin e biletës
+TicketNewEmailBodyInfosTrackId=Numri i përcjelljes së biletës: %s
+TicketNewEmailBodyInfosTrackUrl=Ju mund të shikoni ecurinë e biletës duke klikuar linkun e mësipërm.
+TicketNewEmailBodyInfosTrackUrlCustomer=Ju mund të shikoni ecurinë e biletës në ndërlidhjen specifike duke klikuar linkun e mëposhtëm
+TicketEmailPleaseDoNotReplyToThisEmail=Ju lutemi, mos iu përgjigjni drejtprdrejt kësaj poste elektronike! Përdorni linkun për t'iu përgjigjur ndërlidhjes.
+TicketPublicInfoCreateTicket=Ky formular ju lejon të regjistroni një biletë mbështetjeje në sistemin tonë të menaxhimit.
+TicketPublicPleaseBeAccuratelyDescribe=Ju lutemi përshkruani me saktësi problemin. Jepni sa më shumë informacion të mundshëm për të na lejuar të identifikojmë saktë kërkesën tuaj.
+TicketPublicMsgViewLogIn=Ju lutemi shkruani ID-në e përcjelljes së biletës
+TicketTrackId=ID-ja publike e përcjelljes
+OneOfTicketTrackId=Një nga ID-të tuaja të përcjelljes
+ErrorTicketNotFound=Bileta me ID përcjellëse %s nuk është gjetur!
+Subject=Subjekti
+ViewTicket=Shiko biletën
+ViewMyTicketList=Shikoni listën time të biletave
+ErrorEmailMustExistToCreateTicket=Gabim: adresa e postës elektronike nuk është gjetur në bazën tonë të të dhënave
+TicketNewEmailSubjectAdmin=Bileta e re është krijuar - Ref %s (ID-ja e biletës publike %s)
+TicketNewEmailBodyAdmin=<p>Bileta sapo është krijuar me ID #%s, shikoni informacionin:</p>
+SeeThisTicketIntomanagementInterface=Shihni biletën në ndërlidhjen e menaxhimit
+TicketPublicInterfaceForbidden=Ndërlidhja publike për biletat nuk është ativizuar
+ErrorEmailOrTrackingInvalid=Vlera e keqe për përcjelljen e ID-së ose postës elektronike
+OldUser=Përdorues i vjetër
+NewUser=Përdorues i ri
+NumberOfTicketsByMonth=Numri i biletave në muaj
+NbOfTickets=Numri i biletave
+# notifications
+TicketNotificationEmailSubject=Bileta %s është përditësua
+TicketNotificationEmailBody=Ky është një mesazh automatik për t'ju njoftuar se bileta %s sapo është përditësuar
+TicketNotificationRecipient=Pranuesi i njoftimit
+TicketNotificationLogMessage=Mesazhi i regjistrit
+TicketNotificationEmailBodyInfosTrackUrlinternal=Shikoni biletën në ndërlidhje
+TicketNotificationNumberEmailSent=Posta elektronike/njoftimi është dërguar: %s
+
+ActionsOnTicket=Ngjarjet në biletë
+
+#
+# Boxes
+#
+BoxLastTicket=Biletat e krijuara më së fundi
+BoxLastTicketDescription=Biletat e fundit të krijuara nga %s
+BoxLastTicketContent=
+BoxLastTicketNoRecordedTickets=Nuk ka bileta të palexuara së fundi
+BoxLastModifiedTicket=Biletat e modifikuara më të fundit
+BoxLastModifiedTicketDescription=Biletat e fundit të modifikuara %s
+BoxLastModifiedTicketContent=
+BoxLastModifiedTicketNoRecordedTickets=Nuk ka bileta të modifikuara së fundi
+BoxTicketType=Shpërndarja e biletave të hapura sipas llojit
+BoxTicketSeverity=Numri i biletave të hapura sipas mprehtësisë
+BoxNoTicketSeverity=Nuk ka bileta të hapura
+BoxTicketLastXDays=Numri i biletave të reja sipas ditëve %s ditët e fundit
+BoxTicketLastXDayswidget = Numri i biletave të reja sipas ditëve X ditët e fundit
+BoxNoTicketLastXDays=Nuk ka bileta të reja %s ditët e fundit
+BoxNumberOfTicketByDay=Numri i biletave të reja në ditë
+BoxNewTicketVSClose=Numri i biletave kundrejt biletave të mbyllura (sot)
+TicketCreatedToday=Bileta është krijuar sot
+TicketClosedToday=Bileta është mbyllur sot
+KMFoundForTicketGroup=Ne gjetëm tema dhe FAQ që mund t'i përgjigjen pyetjes suaj, falë kontrollimit të tyre përpara se të dorëzoni biletën

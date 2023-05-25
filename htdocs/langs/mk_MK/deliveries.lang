@@ -1,0 +1,33 @@
+# Dolibarr language file - Source file is en_US - deliveries
+Delivery=Испорака(доставување)
+DeliveryRef=Реф. Испорака
+DeliveryCard=Картичка за прием
+DeliveryOrder=Потврда за испорака
+DeliveryDate=Датум на испорака
+CreateDeliveryOrder=Создадете потврда за испорака
+DeliveryStateSaved=Состојбата на испорака е зачувана
+SetDeliveryDate=Поставете датум на испорака
+ValidateDeliveryReceipt=Потврдете ја потврдата за испорака
+ValidateDeliveryReceiptConfirm=Дали сте сигурни дека сакате да ја потврдите оваа потврда за испорака?
+DeleteDeliveryReceipt=Избришете ја потврдата за испорака
+DeleteDeliveryReceiptConfirm=Дали сте сигурни дека сакате да ја избришете потврдата за испорака <b>%s</b>?
+DeliveryMethod=Начин на испорака
+TrackingNumber=Број за следење
+DeliveryNotValidated=Испораката не е потврдена
+StatusDeliveryCanceled=Откажано
+StatusDeliveryDraft=Нацрт
+StatusDeliveryValidated=Примено
+# merou PDF model
+NameAndSignature=Име и потпис:
+ToAndDate=До___________________________________ на ____/_____/__________
+GoodStatusDeclaration=Ја примиле стоката погоре во добра состојба,
+Deliverer=Доставувач:
+Sender=Испраќач
+Recipient=Примач
+ErrorStockIsNotEnough=Нема доволно залихи
+Shippable=Може да се испорача
+NonShippable=Не може да се испорача
+ShowShippableStatus=Прикажи статус на испорака
+ShowReceiving=Прикажи потврда за испорака
+NonExistentOrder=Непостоечки редослед
+StockQuantitiesAlreadyAllocatedOnPreviousLines = Количините на залиха веќе распределени на претходните линии

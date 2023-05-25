@@ -1,0 +1,32 @@
+# Dolibarr language file - Source file is en_US - oauth
+ConfigOAuth=Konfigurimi i OAuth
+OAuthServices=Shërbimet OAuth
+ManualTokenGeneration=Gjenerimi manual i tokenëve
+TokenManager=Menaxhuesi i Tokenit
+IsTokenGenerated=A është gjeneruar tokeni?
+NoAccessToken=Asnjë token aksesi nuk është ruajtur në bazën e të dhënave lokale
+HasAccessToken=Një token është krijua dhe shtë ruajtur në bazën e të dhënave lokale
+NewTokenStored=Tokeni është marrë dhe është ruajtur
+ToCheckDeleteTokenOnProvider=Klikoni këtu për të kontrolluar/fshirë autorizimin e ruajtur nga %s ofruesi OAuth
+TokenDeleted=Tokeni është fshirë
+RequestAccess=Klikoni këtu për të kërkuar/rinovuar aksesin dhe për të marrë një token të ri për ta ruajtur
+DeleteAccess=Klikoni këtu për të fshirë tokenin
+UseTheFollowingUrlAsRedirectURI=Përdorni URL-në e mëposhtme si URI ridrejtuese kur krijoni kredencialet tuaja me ofruesin tuaj OAuth:
+ListOfSupportedOauthProviders=Futni kredencialet e dhëna nga ofruesi juaj OAuth2. Këtu renditen vetëm ofruesit e mbështetur OAuth2. Këto shërbime mund të përdoren nga module të tjera që kanë nevojë për vërtetim OAuth2.
+OAuthSetupForLogin=Faqe për të gjeneruar një token OAuth
+SeePreviousTab=Shihni skedën e mëparshme
+OAuthIDSecret=ID-ja dhe Fjalëkalimi i OAuth 
+TOKEN_REFRESH=Prezantimi i rifreskimit të tokeneve
+TOKEN_EXPIRED=Tokeni ka skaduar
+TOKEN_EXPIRE_AT=Tokeni skadon në
+TOKEN_DELETE=Fshini tokenin e ruajtur
+OAUTH_GOOGLE_NAME=Shërbimi OAuth Google
+OAUTH_GOOGLE_ID=ID e Google OAuth
+OAUTH_GOOGLE_SECRET=Fshehtsia e Google OAuth
+OAUTH_GOOGLE_DESC=Go to <a class="notasortlink" href="https://console.developers.google.com/" target="_blank">këtë faqe</a> pastaj "Credentials" për të krijuar kredencialet OAuth
+OAUTH_GITHUB_NAME=Shërbimi OAuth GitHub
+OAUTH_GITHUB_ID=ID-ja e OAuth GitHub
+OAUTH_GITHUB_SECRET=Fshehtësia e OAuth GitHub 
+OAUTH_GITHUB_DESC=Go to <a class="notasortlink" href="https://github.com/settings/developers" target="_blank">këtë faqe</a> më pas "Regjistroni një aplikacion të ri" për të krijuar kredencialet OAuth
+OAUTH_STRIPE_TEST_NAME=Testi i vijave OAuth
+OAUTH_STRIPE_LIVE_NAME=OAuth Vijat Drejtpërdrejt

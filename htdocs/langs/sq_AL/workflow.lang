@@ -1,0 +1,26 @@
+# Dolibarr language file - Source file is en_US - workflow
+WorkflowSetup=Konfigurimi i modulit të rrjedhës së punës
+WorkflowDesc=Ky modul ofron disa veprime automatike. Si parazgjedhje, rrjedha e punës është e hapur (mund t'i bëni gjërat sipas rendit që dëshironi), por këtu mund të aktivizoni disa veprime automatike.
+ThereIsNoWorkflowToModify=Nuk ka modifikime të rrjedhës së punës në dispozicion me modulet e aktivizuara.
+# Autocreate
+descWORKFLOW_PROPAL_AUTOCREATE_ORDER=Krijoni automatikisht një porosi shitje pasi të nënshkruhet një ofertë tregtare (porosia e re do të ketë të njëjtën shumë si oferta)
+descWORKFLOW_PROPAL_AUTOCREATE_INVOICE=Krijoni automatikisht një faturë konsumatori pasi të nënshkruhet një ofertë tregtare (fatura e re do të ketë të njëjtën shumë me ofertën)
+descWORKFLOW_CONTRACT_AUTOCREATE_INVOICE=Krijoni automatikisht një faturë konsumatori pasi të jetë vërtetuar një kontratë
+descWORKFLOW_ORDER_AUTOCREATE_INVOICE=Krijoni automatikisht një faturë konsumatori pas mbylljes së një porosie shitjeje (fatura e re do të ketë të njëjtën shumë si porosia)
+# Autoclassify customer proposal or order
+descWORKFLOW_ORDER_CLASSIFY_BILLED_PROPAL=Klasifikoni propozimin e burimit të lidhur si të faturuar kur porosia e shitjes është caktuar si e faturuar (dhe nëse shuma e porosisë është e njëjtë me shumën totale të propozimit të lidhur e të nënshkruar)
+descWORKFLOW_INVOICE_CLASSIFY_BILLED_PROPAL=Klasifikoni propozimin e burimit të lidhur si të faturuar kur fatura e konsumatorit vërtetohet (dhe nëse shuma e faturës është e njëjtë me shumën totale të propozimit të lidhur e të nënshkruar)
+descWORKFLOW_INVOICE_AMOUNT_CLASSIFY_BILLED_ORDER=Klasifikoni porosinë e shitjes me burim të lidhur si të faturuar kur fatura e konsumatorit vërtetohet (dhe nëse shuma e faturës është e njëjtë me shumën totale të porosisë së lidhur)
+descWORKFLOW_INVOICE_CLASSIFY_BILLED_ORDER=Klasifikoni porosinë e shitjes me burim të lidhur si të faturuar kur fatura e konsumatorit është caktuar si e paguar (dhe nëse shuma e faturës është e njëjtë me shumën totale të porosisë së lidhur)
+descWORKFLOW_ORDER_CLASSIFY_SHIPPED_SHIPPING=Klasifikoni porosinë e shitjes me burim të lidhur si të dërguar kur një dërgesë vërtetohet (dhe nëse sasia e dërguar nga të gjitha dërgesat është e njëjtë si në porosinë për përditësim)
+descWORKFLOW_ORDER_CLASSIFY_SHIPPED_SHIPPING_CLOSED=Klasifikoni porosinë e shitjes me burim të lidhur si të dërguar kur një dërgesë mbyllet (dhe nëse sasia e dërguar nga të gjitha dërgesat është e njëjtë si në porosinë për përditësim)
+# Autoclassify purchase order
+descWORKFLOW_ORDER_CLASSIFY_BILLED_SUPPLIER_PROPOSAL=Klasifiko propozimin e shitësit me burim të lidhur si të faturuar kur fatura e shitësit vërtetohet (dhe nëse shuma e faturës është e njëjtë me shumën totale të propozimit të lidhur)
+descWORKFLOW_INVOICE_AMOUNT_CLASSIFY_BILLED_SUPPLIER_ORDER=Klasifikoni porosinë e blerjes me burim të lidhur si të faturuar kur fatura e shitësit vërtetohet (dhe nëse shuma e faturës është e njëjtë me shumën totale të porosisë së lidhur)
+descWORKFLOW_BILL_ON_RECEPTION=Klasifikoni pranimet në "faturuar" kur vërtetohet një porosi e lidhur e furnizuesit
+# Autoclose intervention
+descWORKFLOW_TICKET_CLOSE_INTERVENTION=Mbyllni të gjitha ndërhyrjet e lidhura me biletën kur një biletë është e mbyllur
+AutomaticCreation=Krijimi automatik
+AutomaticClassification=Klasifikimi automatik
+# Autoclassify shipment
+descWORKFLOW_SHIPPING_CLASSIFY_CLOSED_INVOICE=Klasifikoni dërgesën me burim të lidhur si të mbyllur kur fatura e konsumatorit vërtetohet

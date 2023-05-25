@@ -1,0 +1,22 @@
+# Dolibarr language file - Source file is en_US - multicurrency
+MultiCurrency=Multi valuta
+ErrorAddRateFail=Gabim në tarifën e shtuar
+ErrorAddCurrencyFail=Gabim në valutën e shtuar
+ErrorDeleteCurrencyFail=Gabim në fshirje ka dështuar
+multicurrency_syncronize_error=Gabim sinkronizimi: %s
+MULTICURRENCY_USE_RATE_ON_DOCUMENT_DATE=Përdorni datën e dokumentit për të gjetur kursin e valutës, në vend që të përdorni kursin më të fundit të njohur
+multicurrency_useOriginTx=Kur një objekt krijohet nga një tjetër, mbani normën origjinale nga objekti burimor (përndryshe përdorni normën më të fundit të njohur)
+CurrencyLayerAccount=CurrencyLayer API
+CurrencyLayerAccount_help_to_synchronize=Duhet të krijoni një llogari në ueb faqen %s për të përdorur këtë funksionalitet.<br>Merrni çelësin tuaj <b>API</b>.<br>Nëse përdorni një llogari falas, nuk mund të ndryshoni <b>valutën burimore </b> (USD si parazgjedhje).<br>Nëse valuta juaj kryesore nuk është USD, aplikacioni do ta rillogarisë atë automatikisht.<br><br>Ju jeni të kufizuar në 1000 sinkronizime në muaj.
+multicurrency_appId=Çelësi API
+multicurrency_appCurrencySource=Valuta burimore
+multicurrency_alternateCurrencySource=Valuta e burimit alternativ
+CurrenciesUsed=Valutat e përdorura
+CurrenciesUsed_help_to_add=Shtoni valutat dhe tarifat e ndryshme që duhet të përdorni në <b>propozimet</b>, <b>porositë</b> etj.
+rate=norma
+MulticurrencyReceived=Valuta origjinale e pranuar
+MulticurrencyRemainderToTake=Shuma e mbetur, valuta origjinale
+MulticurrencyPaymentAmount=Shuma e pagesës, valuta origjinale
+AmountToOthercurrency=Shuma për (në valutën e llogarisë marrëse)
+CurrencyRateSyncSucceed=Sinkronizimi i kursit të valutës është kryer me sukses
+MULTICURRENCY_USE_CURRENCY_ON_DOCUMENT=Përdorni valutën e dokumentit për pagesa online

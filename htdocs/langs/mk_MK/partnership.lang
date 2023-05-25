@@ -1,0 +1,91 @@
+# Copyright (C) 2021		NextGestion			<contact@nextgestion.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+ModulePartnershipName=Управување со партнерство(менаџмент)
+PartnershipDescription=Модул Партнерство за управување
+PartnershipDescriptionLong= Модул Партнерство за управување
+Partnership=Партнерство
+AddPartnership=Додај партнерство
+CancelPartnershipForExpiredMembers=Партнерство: Откажи партнерство на членови со истечени претплати
+PartnershipCheckBacklink=Партнерство: Проверете го упатувањето на линкот
+
+#
+# Menu
+#
+NewPartnership=Ново партнерство
+ListOfPartnerships=Листа на партнери
+#
+# Admin page
+#
+PartnershipSetup=Поставување на партнерство
+PartnershipAbout=За партнерство
+PartnershipAboutPage=Партнерство за страница
+partnershipforthirdpartyormember=Статусот на партнерот мора да биде поставен на „трето лице“ или „член“
+PARTNERSHIP_IS_MANAGED_FOR=Партнерството управувано за
+PARTNERSHIP_BACKLINKS_TO_CHECK=Врски за проверка
+PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Напомена на денови пред откажување на статусот на партнерство кога претплатата е истечена
+ReferingWebsiteCheck=Проверка на упатување на веб-страница
+ReferingWebsiteCheckDesc=Можете да овозможите функција за да проверите дали вашите партнери додале повратна врска до домените на вашата веб-страница на нивната сопствена веб-страница.
+
+#
+# Object
+#
+DeletePartnership=Избришете партнерство
+PartnershipDedicatedToThisThirdParty=Партнерство посветено на ова трето лице
+PartnershipDedicatedToThisMember=Партнерство посветено на овој член
+DatePartnershipStart=Почетен датум
+DatePartnershipEnd=Краен датум
+ReasonDecline=Отфрли ја причината
+ReasonDeclineOrCancel=Отфрли ја причината
+PartnershipAlreadyExist=Партнерството веќе постои
+ManagePartnership=Управувајте со партнерството
+BacklinkNotFoundOnPartnerWebsite=Линкот за враќање не е пронајден на веб-страницата на партнерот
+ConfirmClosePartnershipAsk=Дали сте сигурни дека сакате да го откажете ова партнерство?
+PartnershipType=Тип на партнерство
+PartnershipRefApproved=Партнерство %s одобрено
+
+#
+# Template Mail
+#
+SendingEmailOnPartnershipWillSoonBeCanceled=Партнерството наскоро ќе биде откажано
+SendingEmailOnPartnershipRefused=Одби партнерство
+SendingEmailOnPartnershipAccepted=Прифати партнерство
+SendingEmailOnPartnershipCanceled=Откажи партнерство
+
+YourPartnershipWillSoonBeCanceledTopic=Партнерството наскоро ќе биде откажано
+YourPartnershipRefusedTopic=Одби партнерство
+YourPartnershipAcceptedTopic=Прифати партнерство
+YourPartnershipCanceledTopic=Откажи партнерство
+
+
+YourPartnershipWillSoonBeCanceledContent=Ве известуваме дека вашето партнерство наскоро ќе биде откажано (Повратниот линк не е пронајден)
+YourPartnershipRefusedContent=Ве известуваме дека барањето за партнерство е одбиено.
+YourPartnershipAcceptedContent=Ве известуваме дека вашето барање за партнерство е прифатено.
+YourPartnershipCanceledContent=Ве известуваме дека вашето партнерство е откажано.
+CountLastUrlCheckError=Број на грешки за последна проверка на URL-адреса
+LastCheckBacklink=Датум на последната проверка на URL-адресата
+ReasonDeclineOrCancel=Одбиј причина
+
+#
+# Status
+#
+PartnershipDraft=Нацрт
+PartnershipAccepted=Прифатено
+PartnershipRefused=Одбиено
+PartnershipCanceled=Откажано
+PartnershipManagedFor=Партнери се

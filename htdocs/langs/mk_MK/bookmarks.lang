@@ -1,0 +1,22 @@
+# Dolibarr language file - Source file is en_US - marque pages
+AddThisPageToBookmarks=Додајте тековна страница во обележувачи
+Bookmark=Обележете
+Bookmarks=Обележувачи
+ListOfBookmarks=Листа на обележувачи
+EditBookmarks=Наведете/уредете ги обележувачите
+NewBookmark=Нов обележувач
+ShowBookmark=Прикажи обележувач
+OpenANewWindow=Отворете нов таб
+ReplaceWindow=Заменете го тековниот таб
+BookmarkTargetNewWindowShort=Нов таб
+BookmarkTargetReplaceWindowShort=Тековен таб
+BookmarkTitle=Име на обележувач
+UrlOrLink=URL-адреса
+BehaviourOnClick=Дејствување кога е избрана URL-адреса за обележувач
+CreateBookmark=Создадете обележувач
+SetHereATitleForLink=Поставете име на обележувачот
+UseAnExternalHttpLinkOrRelativeDolibarrLink=Употребете надворешна/апсолутна врска (https://externalurl.com) или внатрешна/релативна врска (/mypage.php). Можете да користите и телефон како тел:0123456.
+ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Изберете дали поврзаната страница треба да се отвори во тековниот таб или во нов таб
+BookmarksManagement=Управување со обележувачи
+BookmarksMenuShortCut=Ctrl + shift + m
+NoBookmarks=Не се дефинирани обележувачи

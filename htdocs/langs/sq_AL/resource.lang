@@ -1,0 +1,36 @@
+# Dolibarr language file - Source file is en_US - resource
+MenuResourceIndex=Resurset
+MenuResourceAdd=Resursi i ri
+DeleteResource=Fshini resursin
+ConfirmDeleteResourceElement=Konfirmoni fshirjen e resursit për këtë element
+NoResourceInDatabase=Nuk ka asnjë resurs në bazën e të dhënave.
+NoResourceLinked=Nuk ka asnjë resurs të lidhur
+
+ResourcePageIndex=Lista e resurseve
+ResourceSingular=Resursi
+ResourceCard=Kartela e resursit
+AddResource=Krijoni një resusrs
+ResourceFormLabel_ref=Emri i resursit
+ResourceType=Lloji i resursit
+ResourceFormLabel_description=Përshkrimi i resursit
+
+ResourcesLinkedToElement=Resurset e lidhura me elementin
+
+ShowResource=Shfaqni resursin
+
+ResourceElementPage=Resurset e elementeve
+ResourceCreatedWithSuccess=Resursi është krijuar me sukses
+RessourceLineSuccessfullyDeleted=Linja e resursit është fshirë me sukses
+RessourceLineSuccessfullyUpdated=Linja e resursit është përditësuar me sukses
+ResourceLinkedWithSuccess=Resursi është lidhur me sukses
+
+ConfirmDeleteResource=Konfirmoni për ta fshirë këtë resurs
+RessourceSuccessfullyDeleted=Resursi është fshirë me sukses
+DictionaryResourceType=Llojet e resurseve
+
+SelectResource=Zgjidhni resursin
+
+IdResource=Resursi i Id-së 
+AssetNumber=Numri serik
+ResourceTypeCode=Lloji i shifrës së resursit
+ImportDataset_resource_1=Resurset

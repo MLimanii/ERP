@@ -1,0 +1,34 @@
+# Dolibarr language file - Source file is en_US - loan
+Loan=Hua
+Loans=Huatë
+NewLoan=Huaja e re
+ShowLoan=Shfaqni huanë
+PaymentLoan=Pagesa e huasë
+LoanPayment=Pagesa e huasë
+ShowLoanPayment=Shfaqni pagesën e huasë
+LoanCapital=Kapitali
+Insurance=Sigurimi
+Interest=Interesi
+Nbterms=Numri i termave
+Term=Termi
+LoanAccountancyCapitalCode=Kapitali i llogarisë së kontabilitetit
+LoanAccountancyInsuranceCode=Sigurimi i llogarisë së kontabilitetit
+LoanAccountancyInterestCode=Interesi i llogarisë së kontabilitetit
+ConfirmDeleteLoan=Konfirmoni fshirjen e kësaj huaje
+LoanDeleted=Kredia është fshirë me sukses
+ConfirmPayLoan=Konfirmoni klasifikimin e kësaj huaje të paguar
+LoanPaid=Huaja e paguar
+ListLoanAssociatedProject=Lista e huave të lidhura me projektin
+AddLoan=Krijoni hua 
+FinancialCommitment=Angazhimi financiar
+InterestAmount=Interesi
+CapitalRemain=Kapitali i mbetur
+TermPaidAllreadyPaid = Ky afat tashmë është paguar
+CantUseScheduleWithLoanStartedToPaid = Nuk mund të përdorni planifikuesin për një hua me fillimin e pagesës
+CantModifyInterestIfScheduleIsUsed = Nuk mund ta modifikoni interesin nëse përdorni orarin
+# Admin
+ConfigLoan=Konfigurimi i huasë së modulit
+LOAN_ACCOUNTING_ACCOUNT_CAPITAL=Kapitali i llogarisë së kontabilitetit si standard
+LOAN_ACCOUNTING_ACCOUNT_INTEREST=Interesi i llogarisë së kontabilitetit si standard
+LOAN_ACCOUNTING_ACCOUNT_INSURANCE=Sigurimi i llogarisë së kontabilitetit si standrd
+CreateCalcSchedule=Ndryshoni angazhimin financiar

@@ -1,0 +1,26 @@
+# Dolibarr language file - Source file is en_US - salaries
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Сметководствена сметка што се користи за трети лица на корисници
+SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Посебната сметководствена сметка дефинирана на корисничката картичка ќе се користи само за сметководство на Subledger. Оваа ќе се користи за Главна книга и како стандардна вредност на сметководството на Subledger доколку не е дефинирана посебна корисничка сметка за сметководство на корисникот.
+SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Стандардна сметководствена сметка за исплати на плати
+CREATE_NEW_SALARY_WITHOUT_AUTO_PAYMENT=По дифолт, оставете ја празна опцијата „Автоматски креирајте вкупна исплата“ при креирањето на Плата
+Salary=Плата
+Salaries=Плати
+NewSalary=Нова плата
+AddSalary=Додадете плата
+NewSalaryPayment=Нова платежна картичка
+AddSalaryPayment=Додадете исплата на плата
+SalaryPayment=Исплата на плата
+SalariesPayments=Исплати на плати
+SalariesPaymentsOf=Исплати на плати of %s
+ShowSalaryPayment=Прикажи исплата на плата
+THM=Просечна часовна стапка
+TJM=Просечна дневна стапка
+CurrentSalary=Тековна плата
+THMDescription=Оваа вредност може да се користи за пресметување на трошоците за потрошено време на проект внесен од корисниците доколку се користи проект на модул
+TJMDescription=Оваа вредност моментално е само за информации и не се користи за никакви пресметки
+LastSalaries=Најнови %s плати
+AllSalaries=Сите плати
+SalariesStatistics=Статистика на плати
+SalariesAndPayments=Плати и исплати
+ConfirmDeleteSalaryPayment=Дали сакате да ја избришете оваа исплата на плата?
+FillFieldFirst=Прво пополнете го полето за вработен

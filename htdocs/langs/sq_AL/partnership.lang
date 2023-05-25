@@ -1,0 +1,92 @@
+# Copyright (C) 2021		NextGestion			<contact@nextgestion.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+ModulePartnershipName=Menaxhimi i partneritetit
+PartnershipDescription=Moduli i Menaxhimit të Partneritetit
+PartnershipDescriptionLong= Moduli i Menaxhimit të Partneritetit
+Partnership=Partneriteti
+AddPartnership=Shtoni partneritetin
+CancelPartnershipForExpiredMembers=Partneriteti: Anuloni partneritetin e anëtarëve me abonime të skaduara
+PartnershipCheckBacklink=Partneriteti: Kontrolloni lidhjen referuese
+
+#
+# Menu
+#
+NewPartnership=Partneritet i ri
+ListOfPartnerships=Lista e partneriteteve
+
+#
+# Admin page
+#
+PartnershipSetup=Konfigurimi i partneritetit
+PartnershipAbout=Rreth Partneritetit
+PartnershipAboutPage=Partneriteti rreth faqes
+partnershipforthirdpartyormember=Statusi i partnerit duhet të vendoset në një "palë të tretë" ose një "anëtar"
+PARTNERSHIP_IS_MANAGED_FOR=Partneriteti i menaxhuar për
+PARTNERSHIP_BACKLINKS_TO_CHECK=Linqet e mëparshme për t'u kontrolluar
+PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb e ditëve përpara anulimit të statusit të një partneriteti kur një abonim ka skaduar
+ReferingWebsiteCheck=Kontrolli i referencës së uebfaqes
+ReferingWebsiteCheckDesc=Mund të aktivizoni një veçori për të kontrolluar nëse partnerët tuaj kanë shtuar një lidhje të mëparshme në domenet e uebfaqes suaj në uebfaqen e tyre. 
+
+#
+# Object
+#
+DeletePartnership=Fshini një partneritet
+PartnershipDedicatedToThisThirdParty=Partneritet kushtuar kësaj pale të tretë
+PartnershipDedicatedToThisMember=Partneritet kushtuar këtij anëtari
+DatePartnershipStart=Data e fillimit
+DatePartnershipEnd=Data e fundit
+ReasonDecline=Refuzoni arsyen
+ReasonDeclineOrCancel=Arsye e refuzimit
+PartnershipAlreadyExist=Partneriteti tashmë ekziston
+ManagePartnership=Menaxhoni partneritetin
+BacklinkNotFoundOnPartnerWebsite=Lidhja e mëparshme nuk u gjet në uebfaqen e partnerit
+ConfirmClosePartnershipAsk=Jeni të sigurt se dëshiron ta anuloni këtë partneritet?
+PartnershipType=Lloji i partneritetit
+PartnershipRefApproved=Partneriteti %s u miratua
+
+#
+# Template Mail
+#
+SendingEmailOnPartnershipWillSoonBeCanceled=Partneriteti do të anulohet së shpejti
+SendingEmailOnPartnershipRefused=Partneriteti është refuzuar
+SendingEmailOnPartnershipAccepted=Partneriteti është pranuar
+SendingEmailOnPartnershipCanceled=Partneriteti është anuluar
+
+YourPartnershipWillSoonBeCanceledTopic=Partneriteti do të anulohet së shpejti
+YourPartnershipRefusedTopic=Partneriteti është refuzuar
+YourPartnershipAcceptedTopic=Partneriteti është pranuar
+YourPartnershipCanceledTopic=Partneriteti është anuluar
+
+YourPartnershipWillSoonBeCanceledContent=Ju informojmë se partneriteti juaj së shpejti do të anulohet (Lidhja e mëparshme nuk u gjet)
+YourPartnershipRefusedContent=Ju informojmë se kërkesa juaj për partneritet është refuzuar.
+YourPartnershipAcceptedContent=Ju informojmë se kërkesa juaj për partneritet është pranuar.
+YourPartnershipCanceledContent=Ju informojmë se partneriteti juaj është anuluar.
+
+CountLastUrlCheckError=Numri i gabimeve për kontrollin e fundit të URL-së
+LastCheckBacklink=Data e kontrollit të fundit të URL-së
+ReasonDeclineOrCancel=Arsye e refuzimit
+
+#
+# Status
+#
+PartnershipDraft=Draft
+PartnershipAccepted=I/e pranuar
+PartnershipRefused=I/e refuzuar
+PartnershipCanceled=I/e anuluar
+PartnershipManagedFor=Partnerët janë

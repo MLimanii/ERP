@@ -1,0 +1,34 @@
+# Dolibarr language file - Source file is en_US - loan
+Loan=Позајмица
+Loans=Позајмици
+NewLoan=Нов заем
+ShowLoan=Прикажи заем(позајмица)
+PaymentLoan=Исплата на заем
+LoanPayment=Исплата на заем
+ShowLoanPayment=Прикажи исплата на заем
+LoanCapital=Капитал
+Insurance=Осигурување
+Interest=Каматата
+Nbterms=Број на термини
+Term=Термин
+LoanAccountancyCapitalCode=Сметководствената сметка капитал
+LoanAccountancyInsuranceCode=Осигурување на сметководствените сметки
+LoanAccountancyInterestCode=Камата на сметководствената сметка
+ConfirmDeleteLoan=Потврдете го бришењето на овој заем
+LoanDeleted=Заемот е успешно избришан
+ConfirmPayLoan=Потврдете ја класификацијата на платена за овој заем
+LoanPaid=Заемот е платен
+ListLoanAssociatedProject=Листа на заем поврзани со проектот
+AddLoan=Креирај заем
+FinancialCommitment=Финансиска обврска
+InterestAmount=Каматата
+CapitalRemain=Останува капиталот
+TermPaidAllreadyPaid = Овој термин е веќе платен
+CantUseScheduleWithLoanStartedToPaid = Не може да се користи распоредувачот за заем со започната исплата
+CantModifyInterestIfScheduleIsUsed = Не можете да ја промените каматата ако користите распоред
+# Admin
+ConfigLoan=Конфигурација на заем за модул
+LOAN_ACCOUNTING_ACCOUNT_CAPITAL=Стандарден капитал на сметководствената сметка
+LOAN_ACCOUNTING_ACCOUNT_INTEREST=Стандардна камата на сметководствената сметка
+LOAN_ACCOUNTING_ACCOUNT_INSURANCE=Стандардно осигурување на сметководствена сметка
+CreateCalcSchedule=Уреди финансиска обврска
