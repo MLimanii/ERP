@@ -2338,15 +2338,15 @@ function dol_banner_tab($object, $paramid, $morehtml = '', $shownav = 1, $fieldi
 		}
 	}
 
-	// Show address and email
-	if (method_exists($object, 'getBannerAddress') && !in_array($object->element, array('product', 'bookmark', 'ecm_directories', 'ecm_files'))) {
-		$moreaddress = $object->getBannerAddress('refaddress', $object);
-		if ($moreaddress) {
-			$morehtmlref .= '<div class="refidno refaddress">';
-			$morehtmlref .= $moreaddress;
-			$morehtmlref .= '</div>';
-		}
-	}
+//	// Show address and email
+//	if (method_exists($object, 'getBannerAddress') && !in_array($object->element, array('product', 'bookmark', 'ecm_directories', 'ecm_files'))) {
+//		$moreaddress = $object->getBannerAddress('refaddress', $object);
+//		if ($moreaddress) {
+//			$morehtmlref .= '<div class="refidno refaddress">';
+//			$morehtmlref .= $moreaddress;
+//			$morehtmlref .= '</div>';
+//		}
+//	}
 	if (!empty($conf->global->MAIN_SHOW_TECHNICAL_ID) && ($conf->global->MAIN_SHOW_TECHNICAL_ID == '1' || preg_match('/'.preg_quote($object->element, '/').'/i', $conf->global->MAIN_SHOW_TECHNICAL_ID)) && !empty($object->id)) {
 		$morehtmlref .= '<div style="clear: both;"></div>';
 		$morehtmlref .= '<div class="refidno opacitymedium">';

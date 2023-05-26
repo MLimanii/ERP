@@ -4040,7 +4040,7 @@ div.refidpadding  {
 div.refid  {
 	font-weight: bold;
 	color: var(--colortexttitlenotab);
-	font-size: 120%;
+	font-size: 160%;
 }
 a.refid {
 	color: var(--colortexttitlenotab) !important;
