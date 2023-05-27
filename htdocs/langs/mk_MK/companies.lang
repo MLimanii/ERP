@@ -496,17 +496,13 @@ OutOfEurope=Надвор од Европа (ЕЕЗ)
 CurrentOutstandingBillLate=Тековната неподмирена сметка е во доцнење
 BecarefullChangeThirdpartyBeforeAddProductToInvoice=Бидете внимателни, во зависност од поставките за цената на вашиот производ, треба да смените Комитент пред да го додадете производот во POS.
 # -------------
-# Muhamed Keys
+# Muhamed / New Fields
 # -------------
 Lastname=Презиме
 Firstname=Име
 Middlename=Татково Име
 Embg=ЕМБГ
 NorthMacedonia=Северна Македонија (MK)
-Saraj=Сарај
-Lubin=Лубин
-Gurbetqar=Иселеник
-Rastsocial=Социален Случаи
 Pravnolice=Правно Лице
 Fizickolice=Физичко Лице
 Embs=ЕМБС
@@ -517,6 +513,35 @@ Ovlastenolice=Овластено Лице
 Ovlastenoliceplaceholder=Име Презиме
 OvlastenoliceEmbg=Овластено Лице ЕМБГ
 OvlastenoliceSediste=Овластено Лице Седиште
+# -------------
+# Regjionet
+# -------------
+Saraj=Сарај
+Lubin=Лубин
+Krushopek=Крушопек
+Gërçec=Грчец
+Gullmovë=Глумово
+Lloka=Лока
+Shishovë=Шишево
+Kondovë=Кондово
+Rashçe=Рашче
+Arnaqi=Арнакија
+Bojanë=Бојане
+Bukoviq=Буковиќ
+Semenishtë=Семениште
+Çajlanë=Чајлане
+Llaskarcë=Ласкарци
+Sfillareeepërme=Горно Сфиларе
+Sfillareeposhtme=Долно Сфиларе
+Kopanicë=Копаница
+# -------------
+# Lloji i klientit
+# -------------
+Gurbetqar=Иселеник
+Rastsocial=Социален Случаи
+# -------------
+# Lloji i subjektit
+# -------------
 Dooel=ДООЕЛ
 Doo=ДОО
 # -------------

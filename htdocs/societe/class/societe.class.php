@@ -1243,10 +1243,12 @@ class Societe extends CommonObject
 		$this->name = trim($this->name);
 		$this->nom = $this->name; // For backward compatibility
 
-		if (!$this->name) {
+		if ($this->name) {
 			$this->errors[] = 'ErrorBadThirdPartyName';
 			$result = -2;
-		}
+		}elseif (!$this->name) {
+      $this->name = $this->first_name;
+    }
 
 		if ($this->client) {
 			$rescode = $this->check_codeclient();
@@ -1547,6 +1549,8 @@ class Societe extends CommonObject
     if ($this->client == 1) {
       $this->name = $this->first_name . ' ' . $this->last_name;
     }
+
+    var_dump($this->name);
 
 		if ($result >= 0) {
 			dol_syslog(get_class($this)."::update verify ok or not done");
